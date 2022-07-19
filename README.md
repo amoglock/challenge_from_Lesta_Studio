@@ -6,10 +6,11 @@
                 Python example:
 
                 def isEven(value):return value%2==0
-                
+    '''            
     def isEvenNew(value):
     zero = 0
     return int(value % 2) is zero
+    '''
                 
 В примерах аналогичная функциональность нахождения результата (value % 2), далее происходит сравнение. Разница сути 
 сравнения в операторах == и is. 
