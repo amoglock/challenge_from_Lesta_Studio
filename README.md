@@ -3,14 +3,16 @@
 
 1. На языке Python реализовать алгоритм (функцию) определения четности целого числа, который будет аналогичен нижеприведенному по функциональности, но отличен по своей сути. Объяснить плюсы и минусы обеих реализаций.
 
-                Python example:
+        Python example:
 
-                def isEven(value):return value%2==0
-    ```            
-    def isEvenNew(value):
-    zero = 0
-    return int(value % 2) is zero
-    ```
+        def isEven(value):return value%2==0
+                
+         
+        def isEvenNew(value):
+        zero = 0
+        return int(value % 2) is zero
+  
+[Файл кода](https://github.com/amoglock/challenge_from_Lesta_Studio/edit/main/isEvenFunction.py)  
                 
 В примерах аналогичная функциональность нахождения результата (value % 2), далее происходит сравнение. Разница сути 
 сравнения в операторах == и is. 
