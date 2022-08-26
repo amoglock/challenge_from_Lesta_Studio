@@ -9,10 +9,10 @@
                 
          
         def isEvenNew(value):
-        zero = 0
-        return int(value % 2) is zero
+                zero = 0
+                return int(value % 2) is zero
   
-[Файл кода](https://github.com/amoglock/challenge_from_Lesta_Studio/edit/main/isEvenFunction.py)  
+[Файл кода](https://github.com/amoglock/challenge_from_Lesta_Studio/blob/main/isEvenFunction.py  
                 
 В примерах аналогичная функциональность нахождения результата (value % 2), далее происходит сравнение. Разница сути 
 сравнения в операторах == и is. 
